@@ -2,7 +2,7 @@
 
 This is a Stunt-compatible Grapevine interface, designed to allow MOOs to connect and interact on the Grapevine network.
 
-[Source Code](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo?inline=false]
+[Source Code](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo?inline=false)
 
 ## Requirements
 
@@ -37,7 +37,7 @@ Paste the contents of [grapevine.moo](https://git.chatmud.com/distantorigin/moov
 
 All out-of-box MOOVine objects will be automatically subscribed to the MOO channel on Grapevine. This is a channel for discussion of its namesake, and is a universally accepted place to ask questions about MOOVine. If you are unable to speak on the channel, connect to [ChatMUD](https://grapevine.haus/games/ChatMUD/play) at chatmud.com port 7777 and ask your question on the dev channel.
 
-## Change Log
-### Version 1.0 (11/20/2019)
+## Change Log 
+### Version 1.0 (11/20/2019) 
 
 - Initial release.
