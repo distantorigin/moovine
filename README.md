@@ -36,7 +36,7 @@ Paste the contents of [grapevine.moo](https://git.chatmud.com/distantorigin/moov
 If you are running [ToastStunt](https:/www.github.com/lisdude/toaststunt) version 2.5.13 or later, the following eval will pull down the latest copy of MOOVine and perform the process for you:
 
 ```
-;;for line in (decode_binary(curl("https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo"))) if (typeof(line) == str) force_input(player, line);; endif yin(); endfor
+;;for line in (decode_binary(curl("https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo"))) if (typeof(line) == str) force_input(player, line); endif yin(); endfor
 ```
 
 You are responsible for integrating MOOVine into your channel system of choice. IF you suspect that something has gone awry, are having connectivity issues, or unexpected behavior occurs, add yourself to the .debuggers list on the newly created object to receive information about what's going on.
