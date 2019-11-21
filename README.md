@@ -2,7 +2,7 @@
 
 This is a Stunt-compatible Grapevine interface, designed to allow MOOs to connect and interact on the Grapevine network.
 
-[Source Code](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo?inline=false)
+[Source Code](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo)
 
 ## Requirements
 
@@ -31,7 +31,7 @@ nohup websocat tcp-l:127.0.0.1:8081 wss://grapevine.haus/socket -v &
 
 ### Installing MOOVine
 
-Paste the contents of [grapevine.moo](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo?inline=false) into your MOO and follow the setup instructions. you are responsible for integrating MOOVine into your channel system of choice. IF you suspect that something has gone awry, are having connectivity issues, or unexpected behavior occurs, add yourself to the .debuggers list on the newly created object to receive information about what's going on.
+Paste the contents of [grapevine.moo](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo) into your MOO and follow the setup instructions. you are responsible for integrating MOOVine into your channel system of choice. IF you suspect that something has gone awry, are having connectivity issues, or unexpected behavior occurs, add yourself to the .debuggers list on the newly created object to receive information about what's going on.
 
 ## Support
 
