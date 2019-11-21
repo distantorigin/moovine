@@ -31,13 +31,22 @@ nohup websocat tcp-l:127.0.0.1:8081 wss://grapevine.haus/socket -v &
 
 ### Installing MOOVine
 
-Paste the contents of [grapevine.moo](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo) into your MOO and follow the setup instructions. you are responsible for integrating MOOVine into your channel system of choice. IF you suspect that something has gone awry, are having connectivity issues, or unexpected behavior occurs, add yourself to the .debuggers list on the newly created object to receive information about what's going on.
+Paste the contents of [grapevine.moo](https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo) into your MOO and follow the setup instructions.
+
+If you are running [ToastStunt](https:/www.github.com/lisdude/toaststunt) version 2.5.13 or later, the following eval will pull down the latest copy of MOOVine and perform the process for you:
+
+```
+;;for line in (decode_binary(curl("https://git.chatmud.com/distantorigin/moovine/raw/master/grapevine.moo"))) if (typeof(line) == str) force_input(player, line);; endif yin(); endfor
+```
+
+You are responsible for integrating MOOVine into your channel system of choice. IF you suspect that something has gone awry, are having connectivity issues, or unexpected behavior occurs, add yourself to the .debuggers list on the newly created object to receive information about what's going on.
 
 ## Support
 
-All out-of-box MOOVine objects will be automatically subscribed to the MOO channel on Grapevine. This is a channel for discussion of its namesake, and is a universally accepted place to ask questions about MOOVine. If you are unable to speak on the channel, connect to [ChatMUD](https://grapevine.haus/games/ChatMUD/play) at chatmud.com port 7777 and ask your question on the dev channel.
+All out-of-box MOOVine objects will be automatically subscribed to the MOO channel on Grapevine. This is a channel for discussion of its namesake, and is a universally accepted place to ask questions about MOOVine. If you are unable to speak, connect to [ChatMUD](https://grapevine.haus/games/ChatMUD/play) at chatmud.com port 7777 and ask your question on the dev channel.
 
 ## Change Log 
+
 ### Version 1.0 (11/20/2019) 
 
 - Initial release.
