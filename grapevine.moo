@@ -209,7 +209,7 @@ else
 endif
 .
 @verb mgnb:"is_connected" this none this rxd
-@program mgnb:connected
+@program mgnb:is_connected
 return this.connection in connected_players(1);
 .
 @verb mgnb:"user_disconnected user_client_disconnected" this none this
